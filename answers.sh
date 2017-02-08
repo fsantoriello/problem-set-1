@@ -50,7 +50,7 @@ echo "answer-4: $answer_4"
 
 hamlet="$datasets/misc/hamlet.txt"
 
-answer_5=$(grep 'bloody' $hamlet \
+answer_5=$(grep -i 'bloody' $hamlet \
     | wc -w)
 
 echo "answer-5: $answer_5"
